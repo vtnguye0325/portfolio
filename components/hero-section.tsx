@@ -35,7 +35,7 @@ export function HeroSection() {
 
   return (
     <section ref={sectionRef} id="hero" className="relative min-h-screen flex items-center pl-6 md:pl-28 pr-6 md:pr-12">
-      <AnimatedNoise opacity={0.03} />
+      <AnimatedNoise opacity={0.04} />
 
       {/* Left vertical labels */}
       <div className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2">
@@ -48,18 +48,18 @@ export function HeroSection() {
       <div ref={contentRef} className="flex-1 w-full">
         <SplitFlapAudioProvider>
           <div className="relative">
-            <SplitFlapText text="INTERFACE" speed={80} />
+            <SplitFlapText text="VY NGUYEN" speed={40} />
             <div className="mt-4">
               <SplitFlapMuteToggle />
             </div>
           </div>
         </SplitFlapAudioProvider>
 
-        <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          Studies in Controlled Environments
+        <h2 className="font-[var(--font-bebas)] text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
+          End-to-End Engineer
         </h2>
 
-        <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
+        <p className="mt-12 max-w-md font-mono text-sm leading-relaxed">
           We design systems that behave, not just screens that display. Signals from the edge of what&apos;s shippable.
         </p>
 
